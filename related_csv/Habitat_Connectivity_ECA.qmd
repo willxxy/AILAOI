@@ -1,0 +1,50 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.24.1-Tisler">
+  <identifier>Habitat_Connectivity_ECA</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Habitat_Connectivity_ECA</title>
+  <abstract>The California Department of Transportation (Caltrans) and California Department of Fish and Game (CDFG) commissioned the California Essential Habitat Connectivity Project because a functional network of connected wildlands is essential to the continued support of California's diverse natural communities in the face of human development and climate change. The Essential Connectivity Map depicts large, relatively natural habitat blocks that support native biodiversity (Natural Landscape Blocks) and areas essential for ecological connectivity between them (Essential Connectivity Areas). This coarse-scale map was based primarily on the concept of ecological integrity, rather than the needs of particular species. Essential Connectivity Areas are placeholder polygons that can inform land-planning efforts, but that should eventually be replaced by more detailed Linkage Designs, developed at finer resolution based on the needs of particular species and ecological processes. It is important to recognize that even areas outside of Natural Landscape Blocks and Essential Connectivity Areas support important ecological values that should not be "written off" as lacking conservation value. Furthermore, because the Essential Habitat Connectivity Map was created at the statewide scale, based on available statewide data layers, and ignored Natural Landscape Blocks smaller than 2,000 acres squared, it has errors of omission that should be addressed at regional and local scales.
+
+The Essential Connectivity Map shows a statewide network of 850 relatively intact Natural Landscape Blocks (ranging in size from 2,000 to about 3.7 million acres) connected by 192 Essential Connectivity Areas (Table 3.1). There are fewer Essential Connectivity Areas than Natural Landscape Blocks, because each Essential Connectivity Area serves to connect at least two, and as many as 15 Natural Landscape Blocks. Due to the broad, statewide nature of this map, and its focus on connecting very large blocks of mostly protected natural lands, the network omits many areas that are important to biological conservation. The purpose of the map is to focus attention on large areas important to maintaining ecological integrity at the broadest scale. Natural areas excluded from this broad-brush Essential Connectivity Network can therefore not be "written off" as unimportant to connectivity conservation or to sustaining California's natural heritage.
+
+The California Essential Habitat Connectivity Project report is available for download at http://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=18366 , http://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=18376 , http://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=18377 , and http://www.dot.ca.gov/hq/env/bio/program_efforts.htm</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>California</keyword>
+  </keywords>
+  <links>
+    <link url="file://\\Molib01\BIOS\WorkArea\HoldItems\Essential_Hab_Connectivity\FINALDATA\CEHCP.gdb" mimeType="" name="File Geodatabase Feature Class" format="" type="Local Area Network" description="" size=""/>
+  </links>
+  <fees></fees>
+  <rights>The user accepts sole responsibility for the correct interpretation of this report and the correct use of its accompanying data sets in environmental documents. The Essential Habitat Connectivity map delineates lands likely important to wildlife movement between large, mostly natural areas at the statewide scale based on available data and assumptions provided in this report. It omits small natural areas and does not reflect movement needs of particular species. It is a decision-support tool to be refined by finer-scale analyses and local linkage designs. DO NOT assume that lands outside Natural Landscape Blocks or Essential Connectivity Areas are unimportant to wildlife populations or movements.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / California zone 5 (ftUS)",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["SPCS83 California zone 5 (US Survey feet)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",33.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-118,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",35.4666666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",34.0333333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",6561666.667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8826]],PARAMETER["Northing at false origin",1640416.667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["United States (USA) - California - counties Kern; Los Angeles; San Bernardino; San Luis Obispo; Santa Barbara; Ventura."],BBOX[32.76,-121.42,35.81,-114.12]],ID["EPSG",2229]]</wkt>
+      <proj4>+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=35.4666666666667 +lat_2=34.0333333333333 +x_0=2000000.0001016 +y_0=500000.0001016 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+      <srsid>211</srsid>
+      <srid>2229</srid>
+      <authid>EPSG:2229</authid>
+      <description>NAD83 / California zone 5 (ftUS)</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" crs="EPSG:2229" miny="-595201.07970000000204891" maxz="0" minz="0" maxx="510763.20130000001518056" minx="-360958.71080000000074506" maxy="447727.04119999997783452"/>
+    <temporal>
+      <period>
+        <start>2010-03-01T08:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
