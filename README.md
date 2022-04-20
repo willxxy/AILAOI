@@ -25,18 +25,18 @@ Predict infestations in the SMMNA with machine learning and showcase results thr
 
 ### Methods 
 
-*Machine Learning*
+**Machine Learning**
 
-**Data Used**: ISHB_consolidated.csv and Inspected_GSOB_Trees_0.csv files
+*Data Used*: ISHB_consolidated.csv and Inspected_GSOB_Trees_0.csv files
 
-**Task**: Predict location of high, medium, and no risk infestations of ISHB and GSOB
+*Task*: Predict location of high, medium, and no risk infestations of ISHB and GSOB
 
-**Classifier**: XGBoost
+*Classifier*: XGBoost
 
-**Evaluation**: ROC AUC Score
+*Evaluation*: ROC AUC Score
 
 
-*User Interface*
+**User Interface**
 
 [Python API](https://developers.arcgis.com/python/){:target="_blank"} for [ArcGIS dashboard](https://learngis2.maps.arcgis.com/apps/dashboards/e24632dc37fc484985e3a355e665512e){:target="_blank"}
 
