@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Send Email</h1>
+        <input id="input" type="text">
+        <button id="mybutton">Send Notification</button>
+        <h2 id="state"></h2>
+
+        <script>
+            let address = document.getElementById("input");
+            address.value = "mwang283@usc.edu";
+
+            let mb = document.getElementById("mybutton");
+            mb.addEventListener("click", sendemail, false);
+
+            async function sendemail() {
+                document.getElementById("state").innerHTML = "Send Successfully!";
+                //fetch json data
+                let res1 = await fetch("/sendemail/" + address.value);
+                let jsn_intro =  await res1.json();
+            }
+        </script>
+    </body>
+</html>

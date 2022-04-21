@@ -52,7 +52,7 @@ Predict infestations in the SMMNA with machine learning and showcase results thr
 | -------------- | ------------- | -------------------- | ---------------------------- | ---------------------------- |
 | GSOB           | XGBoost       |       ~ 0.966        |            ~ 0.99            |           ~ 0.99             |
 |                |               |                      |                              |                              |
-| ISHB           |               |       ~ 0.780        |            ~ 0.90            |           ~ 0.89             |
+| ISHB           | XGBoost       |       ~ 0.780        |            ~ 0.90            |           ~ 0.89             |
 
 * Fast notification module
 * User-friendly dashboard
