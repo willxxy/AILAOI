@@ -41,10 +41,8 @@ Predict infestations in the SMMNA with machine learning and showcase results thr
 [Python API](https://developers.arcgis.com/python/) for [ArcGIS dashboard](https://learngis2.maps.arcgis.com/apps/dashboards/e24632dc37fc484985e3a355e665512e)
 
 
-### Pipeline
-need to add
-
-
+## Data Flow
+![df](dataflow.png)
 
 ### Contributions
 
